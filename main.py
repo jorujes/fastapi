@@ -7,7 +7,7 @@ class FormData(BaseModel):
     discipline: str
     text_type: str
     theme: str
-    total_pages: str
+    total_pages: int
     reference_format: str
 
 @app.post("/receber-form")
