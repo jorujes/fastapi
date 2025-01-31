@@ -1,2 +1,4 @@
 fastapi==0.100.0
 hypercorn==0.14.4
+openai==0.28.1
+python-docx==0.8.11
